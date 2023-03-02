@@ -1,0 +1,978 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Quicksand, sans-serif;
+    background-color: #f8f8f8;
+    scroll-behavior: smooth;
+    max-width: 1440px;
+    margin: 0 auto;
+    
+}
+:root {
+    --df:#f3f3f3;
+}
+.face-one {
+    position: fixed;
+    width: 100%;
+    max-width: 1440px;
+    z-index: 1;
+    box-shadow: 0 1px 6px hsl(248, 10%, 92%);
+    background-color: hsl(240, 100%, 99%);
+}
+.face-one .fc{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-between;
+}
+.logo {
+    padding: 15px 0 0 100px;
+    width: 100%;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.links {
+    width: 100%;
+}
+.links-two {
+    width: 90%;
+}
+.links, 
+.links-two {
+    padding: 16px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin: 7px 20px;
+    cursor:pointer;
+}
+.links a, 
+.links-two a{
+    text-decoration: none;
+    padding-left: 20px;
+    color: rgb(14, 147, 156);
+}
+.links a:hover, 
+.links-two a:hover {
+    color: blue;
+    
+}
+
+
+/****** tex1 */
+.face-one-tex {
+    padding: 40px 5% 30px 5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.face-one-tex .right {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.face-one-tex .right .text-1 {
+    font-weight: bold;
+    font-size: 50px;
+    color: hsl(245, 17%, 27%);
+    width: 100%;
+}
+.face-one-tex .right .text-2 {
+    width: 100%;
+    line-height: 35px;
+    color: hsl(244, 17%, 61%);
+    font-size: 17;
+    padding: 30px 0;
+}
+.face-one-tex .right .text-3 {
+    color: hsl(245, 17%, 27%);
+    font-weight: 500;
+    line-height: 1.8;
+    font-size: 17px;
+    width: 70%;
+    padding: 0 0 20px 20px ;
+}
+.face-one-tex .right .gmail {
+    font-size: 17px;
+    padding: 17px 0 17px 10px;
+    border-radius: 5px;
+    outline-color: blue;
+    border: none;
+    background-color: #c3e6e6;
+    margin-bottom: 10px;
+    width: 70%;
+    margin: 0 0 10px 20px;
+}
+.face-one-tex .right .subscribe {
+    background-color: blue;
+    border: none;
+    font-size: 17px;
+    color: white;
+    border-radius: 4px;
+    padding: 11px 24px 11px 24px ;
+    cursor: pointer;
+    transition: 0.8s;
+    margin-left: 30px;
+}
+.face-one-tex .subscribe:hover {
+    transform:translateY(-4px);
+    box-shadow: 0 3px 10px hsla(245, 67%, 59%, 0.5);
+}
+.face-one-tex .x2 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 35px;
+    padding-left: 45px;
+}
+.face-one-tex .hero {
+    width: 85%;
+}
+
+
+/*  face two  */
+.face-two {
+    width: 100%;
+    margin: 20px 0 40px 0;
+}
+.face-two-tex {
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+}
+.face-two-tex1 {
+    width: 70%;
+    margin-left: 3%;
+}
+.face-two .face-two-tex1 .im  {
+    width: 60px;
+    height: 60px;
+    background: hsl(245, 17%, 27%);
+    font-size: 28px;
+    border-radius: 15%;
+}
+.face-two .face-two-tex1 .p1 {
+    font-size: 29px;
+    padding: 20px 0 20px 0;
+    color: hsl(245, 17%, 27%);
+    width: 100%;
+}
+.face-two .face-two-tex1 .p2 {
+    font-size: 17px;
+    color: hsl(244, 17%, 61%);
+    font-weight: 100;
+    line-height: 28px;
+    width: 85%;
+}
+.face-two .face-two-tex1 .learn {
+    border: hsl(245, 67%, 59%) 1px solid;
+    color: hsl(245, 67%, 59%);
+    padding: 15px 35px;
+    margin: 20px 0 20px 30px;
+    border-radius: 5px;
+    transition: 0.8s;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    background-color: white;
+    cursor: pointer;
+}
+.face-two .face-two-tex1 .learn:hover {
+    background-color: hsl(245, 67%, 59%);
+    color: #fff;
+}
+
+/****************** cards */
+.face-two-tex .all-texo {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* padding-right: 3%; */
+}
+.face-two-tex .all-texo .texo1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.face-two-tex .all-texo .texo2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: -30px;
+}
+.face-two .face-two-tex2,
+.face-two .face-two-tex3,
+.face-two .face-two-tex4,
+.face-two .face-two-tex5 {
+    border-radius: 5px;
+    box-shadow: 0 3px 12px hsl(233deg 77% 10% / 14%);
+    line-height: 19px;
+    transition: 0.5s;
+    cursor: pointer;
+    padding: 20px 36px;
+    margin: 0 10px 15px 5px;
+}
+.face-two .face-two-tex2:hover,
+.face-two .face-two-tex3:hover,
+.face-two .face-two-tex4:hover,
+.face-two .face-two-tex5:hover {
+    color: white;
+    transform:translateY(-10px);
+    background-color: hsl(245, 67%, 59%);
+}
+.face-two .face-two-tex2 .im,
+.face-two .face-two-tex3 .im,
+.face-two .face-two-tex4 .im,
+.face-two .face-two-tex5 .im {
+    width: 60px;
+    height: 60px;
+    background-color: hsl(245, 17%, 27%);
+    display: grid;
+    place-items: center;
+    font-size: 28px;
+    border-radius: 50%;
+    margin-inline: auto;
+    margin-bottom: 20px;
+}
+.face-two .face-two-tex2 .p1,
+.face-two .face-two-tex3 .p1,
+.face-two .face-two-tex4 .p1,
+.face-two .face-two-tex5 .p1 {
+    text-align: center;
+    margin: 20px auto;
+    font-size: 22px;
+}
+.face-two .face-two-tex2 .p2,
+.face-two .face-two-tex3 .p2,
+.face-two .face-two-tex4 .p2,
+.face-two .face-two-tex5 .p2 {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 100;
+}
+/*------------------ face 3 and 4 -------------*/
+.face-three {
+    width: 100%;
+    padding: 20 3% 50 3%;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(240, 100%, 99%);
+}
+.face-three .p1 {
+    text-align: center;
+    font-size: 27px;
+    width: 100%;
+    padding-bottom: 15px;
+    margin-top: 60px;
+}
+.face-three .p2 {
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+    color:  hsl(244, 17%, 61%);
+    line-height: 27px;
+    width: 100%;
+    padding: 0 30% 70px 30%;
+}
+.face-three-tex {
+    padding: 15px 5% 0 5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.face-three-tex2 {
+    padding: 15px 5% 10px 5%;
+    margin: 120px 0 10px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
+.face-three-tex .conten {
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+.face-three-tex2 .conten,
+.face-three-tex .conten {
+    width: 70%;
+    margin-top: 100px;
+}
+.face-three-tex .p1,
+.face-three-tex2 .p1 {
+    font-size: 17px;
+    font-weight: 300;
+    color: black;
+}
+.face-three-tex2 .conten .p3,
+.face-three-tex .conten .p3 {
+    width: 100%;
+    padding:0 0 20px 10px;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 25px;
+    color: black;
+}
+.face-three-tex2 .conten .p4,
+.face-three-tex .conten .p4 {
+    width: 90%;
+    padding-bottom: 30px;
+    font-size: 28px;
+}
+.face-three-tex2 .conten .p5,
+.face-three-tex .conten .p5 {
+    width: 93%;
+    padding-bottom: 25px;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 25px;
+    color:  hsl(244, 17%, 61%);
+}
+.face-three-tex2 .conten .p6,
+.face-three-tex .conten .p6 {
+    width: 60%;
+    padding-bottom: 25px;
+    color:  hsl(244, 17%, 61%);
+    font-size: 16px;
+    line-height: 20px;
+}
+.face-three-tex2 .pic,
+.face-three-tex .pic {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+}
+.face-three-tex2 .hero16,
+.face-three-tex .hero16 {
+    width: 80%;
+}
+.face-three-tex2 .bu1,
+.face-three-tex2 .bu2,
+.face-three-tex .bu1,
+.face-three-tex .bu2 {
+    padding: 13px 27px;
+    font-weight: bold;
+    transition: 0.3s;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: hsl(245, 67%, 59%);
+}
+.face-three-tex2 .bu2,
+.face-three-tex .bu2 {
+    background-color: hsla(245, 67%, 59%, 0.15);
+    color: hsl(245, 67%, 59%);
+}
+.face-three-tex2 .bu1:hover,
+.face-three-tex2 .bu2:hover,
+.face-three-tex .bu1:hover,
+.face-three-tex .bu2:hover {
+    transform:translateY(-2px);
+    box-shadow: 0 3px 12px rgba(6, 10, 45, 0.263);
+}
+
+
+/*------------face 4-----------*/
+.face-four {
+    width: 100%;
+    padding: 0 3% 100px 3%;
+}
+.face-five .t1,
+.face-four .t1 {
+    font-weight: bold;
+    font-size: 27px;
+    text-align: center;
+    padding: 100px 0 20px 0;
+}
+.face-five .t2,
+.face-four .t2 {
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+    color:  hsl(244, 17%, 61%);
+    line-height: 27px;
+    width: 100%;
+    padding: 0 30%;
+}
+.content {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.face-four .d1 {
+    width: 100%;
+    border-radius: 5px;
+    margin: 50px 2.5% 0;
+}
+.face-four .d1 img {
+width: 370px;
+border-radius: 5px;
+}
+.face-four .content .d1 .t3 {
+    padding: 10px 0 10px 7px;
+    font-size: 15px;
+    font-weight: 300;
+    color:  hsl(244, 17%, 61%);
+    word-spacing: 2px;
+}
+.face-four .content .d1 span {
+    padding-left: 10px;
+}
+.face-four .content .d1 .t4 {
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.face-four .content .d1 .t5 {
+    width: 91%;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+    color:  hsl(244, 17%, 61%);
+}
+.face-four .content .d1 .s1 {
+    border: none;
+    background-color: transparent;
+    color: hsl(245, 67%, 59%);
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 0;
+}
+.face-four .content .d1 .s1:hover {
+    color: rgb(0, 0, 218);
+    cursor: pointer;
+}
+/*------face five---------------*/
+.face-five {
+    width: 100%;
+    background-color: white;
+    padding: 0 10% auto 10%;
+}
+
+.face-five-tex {
+    width: 100%;
+    padding: 40px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.face-five-tex1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 5px;
+}
+.face-five-tex2 {
+    
+    font-size: 18px;
+    line-height: 40px;
+    color:  hsl(244, 17%, 61%);
+}
+.face-five-tex1 .ng {
+    width: 100%;
+    padding: 10px 0 10px 10px;
+    background: transparent;
+    border: hsla(244, 17%, 61%, 0.377) solid 0.2px;
+    outline: white;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.face-five-tex1 .name-gmail .name {
+    padding-right: 20px ;
+}
+.face-five-tex1 .name-gmail {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.face-five-tex1 .a11 {
+    width: 100%;
+    padding: 10px 0 10px 10px;
+}
+.face-five-tex1 .a1,
+.face-five-tex1 .a2,
+.face-five-tex1 .a3 {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 0 5px 5px;
+}
+.face-five-tex1 .a11 {
+    background: transparent;
+    border: hsla(244, 17%, 61%, 0.377) solid 0.2px;
+    outline: white;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.face-five-tex1 .q1 {
+    background-color: rgb(0, 0, 218);
+    position: relative;
+    cursor: pointer;
+    border: none;
+    font-size: 17px;
+    color: white;
+    border-radius: 4px;
+    padding: 11px 24px 11px 24px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+
+}
+.face-five-tex1 .q1:hover {
+    transform:translateY(-5px);
+    box-shadow: 0 3px 12px rgba(6, 10, 45, 0.263);
+}
+.face-five-tex1 .ng:focus,
+.face-five-tex1 .a9:focus{
+outline: none;
+background: rgba(238, 230, 230, 0.658);
+}
+
+
+
+.face-five-tex2 .a4,
+.face-five-tex2 .a5,
+.face-five-tex2 .a6,
+.face-five-tex2 .a7,
+.face-five-tex2 .a8 {
+    font-weight: 100;
+}
+/*-------------THE End----------------*/
+.the-end {
+    width: 100%;
+    background-color: hsl(245, 16%, 16%);
+    padding: 20px 100px;
+}
+.the-end-tex {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+}
+.the-end-tex .colum {
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+}
+
+.the-end-tex2 {
+    width: 30%;
+
+}
+.the-end-tex2 .lo1 {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 20px 0 10px 0;
+    color: white;
+    letter-spacing: 5px;
+}
+.the-end-tex2 .r1 {
+    font-size: 14.5px;
+    padding: 10px 0;
+    font-weight: 100;
+    color: hsla(0, 0%, 100%, 0.5);
+    font-weight: 100;
+    width: 90%;
+    line-height: 35px;
+} 
+.the-end-tex1 .lo1 {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    padding: 20px 0 10px 0;
+}
+.the-end-tex1 .r1 {
+    font-size: 14.5px;
+    padding: 10px 0;
+    font-weight: 100;
+    color: hsla(0, 0%, 100%, 0.5);
+    font-weight: 100;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.the-end-end {
+    width: 100%;
+    padding: 30px 0;
+    background-color: hsl(244, 17%, 19%);
+}
+.the-end-end .k6 {
+    text-align: center;
+    color: hsla(0, 0%, 100%, 0.5);
+    font-size: 15px;
+    font-weight: 100;
+}
+.the-end-tex1 .r1:hover {
+    transform:translateX(5px);
+    color: white;
+}
+.the-end-end a{
+    text-decoration: none;
+    color: rgb(132, 0, 255);
+    text-transform: uppercase;
+}
+
+
+/*---phone---*/
+@media screen and (max-width: 768px){
+
+    /*  face one *links*   */
+    .face-one {
+        width: 100%;
+        padding: 1% 3%;
+    }
+    .face-one .fc .logo {
+        padding: 10px 0 10px 30px;
+        font-size: 30px;
+        font-weight: bolder;
+    }
+
+    .face-one .links-two,
+    .face-one .links {
+        display: none;
+    }
+    .face-one-tex {
+        width: 100%;
+        padding: 0 1% 30px 1%;
+        display: flex;
+        flex-direction: column;
+    }
+    .face-one-tex .right {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        justify-content: center;
+        margin-top: 150px;
+        margin-left: 6%;
+    }
+    .face-one-tex .right .text-1 {
+        width: 90%;
+    }
+    .face-one-tex .right .text-2 {
+        width: 80%;
+    }
+    .face-one-tex .right .text-3 {
+        width: 80%;
+    }
+    .face-one-tex .right .gmail {
+        width: 65%;
+        position: relative;
+        left: 20px;
+    }
+    .face-one-tex .right .subscribe{
+        position: relative;
+        left: 20px;
+    }
+    .face-one-tex .x2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    /*-------face-two------*/
+    .face-two {
+        width: 100%;
+        margin: 10px 1%;
+    }
+    .face-two .face-two-tex {
+        width: 100%;
+        padding: 20px 1% 30px 1%;
+        display: flex;
+       flex-direction: column;
+    }
+    .face-two-tex1 {
+        width: 100%;
+    }
+    .face-two-tex1 .im{
+        width: 30%;
+    }
+    .face-two-tex1 .p1{
+        width: 100%;
+    }
+    .face-two-tex1 .p2{
+        width: 70%;
+    }
+    /****** cards */
+    .face-two-tex .all-texo{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .face-two-tex .all-texo .texo1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .face-two-tex .all-texo .texo2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    /*-------face three--------*/
+    .face-three {
+        width: 100%;
+        padding: 0 1% 0 1%;
+        display: flex;
+        flex-direction: column;
+    }
+    .face-three .p1 {
+        width: 100%;
+        padding: 35px 3% 10px 3%;
+    }
+    .face-three .p2 {
+        width: 100%;
+        padding: 10px 3% 10px 3%;
+    }
+    .face-three-tex {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .face-three-tex2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0;
+    }
+    .face-three-tex2 .conten,
+    .face-three-tex .conten {
+        width: 100%;
+    }
+    .face-three-tex2 .conten .p6,
+    .face-three-tex .conten .p6 {
+        width: 80%;
+        padding-bottom: 25px;
+        color: hsl(244, 17%, 61%);
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .face-three .hero16 {
+        width: 85%;
+        padding: 20px 0%;
+    }
+    .face-three-tex {
+        width: 100%;
+        margin: 10px auto;
+    }
+    .face-three-tex .p3 {
+        width: 100%;
+    }
+    .face-three-tex .p4 {
+        width: 90%;
+    }
+    .face-three-tex .p5 {
+        width: 80%;
+    }
+    .face-three-tex .p6 {
+        width: 80%;
+    }
+
+
+    /* face 4 */
+    .face-four {
+        width: 100%;
+        margin: 30px 5% 0 0%;
+        padding: 0 10% 30px 10%;
+    }
+    .face-four .t1 {
+        width: 100%;
+    }
+    .face-four .t2 {
+        width: 100%;
+        padding: 10px 3% 10px 3%;
+    }
+    .face-four .content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .face-four .d1 {
+        width: 100%;
+        padding: 0 6% 0 6%;
+    }
+    .face-four .content .d1 img {
+        width: 100%;
+    }
+    .face-four .content .t3,
+    .face-four .content .t4 {
+        width: 100%;
+    }
+
+    /************* face 5 ***********/
+    .face-five {
+        width: 100%;
+        padding: 0 10%  -500px 10%;
+    }
+    .face-five .t1 {
+        width: 100%;
+    }
+    .face-five .t2 {
+        width: 100%;
+        padding: 10px 3% 10px 3%;
+    }
+    .face-five-tex {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .face-five-tex1 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .face-five-tex1 .name-gmail {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .face-five-tex1 .name-gmail .name {
+        width: 100%;
+    }
+    .face-five-tex1 .name-gmail .gmail {
+        width: 100%;
+    }
+    .face-five-tex1 .a9,
+    .face-five-tex1 .a10,
+    .face-five-tex1 .a11 {
+        width: 100%;
+        font-size: 12px;
+    }
+    .face-five-tex .msg {
+        width: 100%;
+    }
+    .face-five .face-five-tex .face-five-tex2 {
+        width: 100%;
+        padding: 10px 10% 20px 0;
+    }
+
+
+    /* face 6 */
+    .the-end  {
+        width: 100%;
+        padding: 0 10% 0 5%;
+    }
+    .the-end-tex {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .the-end-tex .the-end-tex2 {
+        width: 100%;
+
+    }
+    .the-end-tex .colum {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/*---small laptop---*/
+/* face one */
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .face-one {
+        width: 100%;
+    }
+    .face-one .fc .logo {
+        padding: 15px 0 0 45px;
+    }
+    .face-one .links,
+    .links-two {
+        margin: 7px 0;
+    } 
+    .face-one-tex {
+        width: 100%;
+        padding: 0 3% 100px 3%;
+    }
+    .face-one-tex .right {
+        width: 100%;
+        display: block;
+    } 
+    .face-one-tex .right .text-1 {
+        margin-top: 150px;
+        width: 75%;
+    }
+    .face-one-tex .right .text-2 {
+        width: 75%;
+    }
+    .face-one-tex .right .text-3 {
+        width: 75%;
+    }
+    .face-one-tex .x2 {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 100px;
+        padding-left: 45px;
+    }
+    .face-one-tex .hero {
+        width: 100%;   
+    }
+
+    /* face 4 */
+    .face-four {
+        width: 100%;
+    }
+    .face-five .t1,
+    .face-four .t1 {
+        width: 100%;
+    }
+    .face-five .t2,
+    .face-four .t2{
+        width: 100%;
+        padding: 0 15%;
+    }
+    .face-four .content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 5%;
+    }
+    .face-four .d1 {
+        width: 100%;
+        padding: 0 8%;
+    }
+    .face-four .d1 img {
+        width: 100%;
+    }
+
+    /* face two */
+        .face-two {
+            width: 100%;
+        }
+
+        .face-five {
+            width: 100%;
+        }
+        .the-end {
+            width: 100%;
+        }
+        .the-end-end {
+            width: 100%;
+        }
+}
+/* face five  */
+.face-five {
+    width: 100%;
+}
+/* .face-five-tex1 {
+    width: 100%;
+} */
+.face-five-tex1 .name-gmail {
+    width: 100%;
+}
+/* the end */
+.the-end {
+    width: 100%;
+    padding: 10px;
+}
