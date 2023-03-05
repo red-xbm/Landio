@@ -731,7 +731,7 @@ background: rgba(238, 230, 230, 0.658);
         transition: 0.5s;
         cursor: pointer;
         padding: 20px 35px;
-        margin: 0 0 15px;
+        margin: 0 25px 15px;
     }
 
     /*-------face three--------*/
@@ -803,7 +803,7 @@ background: rgba(238, 230, 230, 0.658);
     /* face 4 */
     .face-four {
         width: 100%;
-        margin: 30px 5% 0 0%;
+        margin: 30px 5%;
         padding: 0 10% 30px 10%;
     }
     .face-four .t1 {
@@ -822,6 +822,7 @@ background: rgba(238, 230, 230, 0.658);
     .face-four .d1 {
         width: 100%;
         padding: 0;
+        margin: 50px 0 0;
     }
     .face-four .content .d1 img {
         width: 100%;
