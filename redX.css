@@ -803,8 +803,8 @@ background: rgba(238, 230, 230, 0.658);
     /* face 4 */
     .face-four {
         width: 100%;
-        margin: 30px 5%;
-        padding: 0 10% 30px 10%;
+        margin: 30px 0;
+        padding: 0 5% 30px;
     }
     .face-four .t1 {
         width: 100%;
