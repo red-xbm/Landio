@@ -839,6 +839,7 @@ background: rgba(238, 230, 230, 0.658);
     }
     .face-five .t1 {
         width: 100%;
+        padding: 50px 0 20px;
     }
     .face-five .t2 {
         width: 100%;
@@ -848,6 +849,7 @@ background: rgba(238, 230, 230, 0.658);
         display: flex;
         flex-direction: column;
         width: 100%;
+        padding: 40px 5%;
     }
     .face-five-tex1 {
         display: flex;
