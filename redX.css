@@ -737,13 +737,15 @@ background: rgba(238, 230, 230, 0.658);
     /*-------face three--------*/
     .face-three {
         width: 100%;
-        padding: 0 1% 0 1%;
+        padding: 0 1%;
         display: flex;
         flex-direction: column;
     }
     .face-three .p1 {
         width: 100%;
-        padding: 35px 3% 10px 3%;
+        padding: 50px 3% 20px;
+        margin: 0;
+
     }
     .face-three .p2 {
         width: 100%;
@@ -803,12 +805,12 @@ background: rgba(238, 230, 230, 0.658);
     /* face 4 */
     .face-four {
         width: 100%;
-        margin: 30px 0;
+        margin: 0 0 30px;
         padding: 0 5% 30px;
     }
     .face-four .t1 {
         width: 100%;
-        padding: 0 0 20px;
+        padding: 50px 0 20px;
     }
     .face-four .t2 {
         width: 100%;
