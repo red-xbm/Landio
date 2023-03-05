@@ -15,6 +15,7 @@ body {
     --df:#f3f3f3;
 }
 .face-one {
+    display: block;
     position: fixed;
     width: 100%;
     max-width: 1440px;
@@ -650,16 +651,22 @@ background: rgba(238, 230, 230, 0.658);
         align-items: baseline;
         justify-content: center;
         margin-top: 150px;
-        margin-left: 6%;
+        margin-left: 0;
     }
     .face-one-tex .right .text-1 {
         width: 90%;
+        font-size: 40px;
     }
     .face-one-tex .right .text-2 {
         width: 80%;
+        font-size: 15px;
+        line-height: 30px;
+        padding: 20px 0;
     }
     .face-one-tex .right .text-3 {
         width: 80%;
+        line-height: 30px;
+        font-size: 14px;
     }
     .face-one-tex .right .gmail {
         width: 65%;
@@ -672,15 +679,14 @@ background: rgba(238, 230, 230, 0.658);
     }
     .face-one-tex .x2 {
         width: 100%;
-        display: flex;
-        justify-content: center;
+        display: unset;
     }
 
 
     /*-------face-two------*/
     .face-two {
         width: 100%;
-        margin: 10px 1%;
+        margin: 10px 0;
     }
     .face-two .face-two-tex {
         width: 100%;
@@ -690,6 +696,7 @@ background: rgba(238, 230, 230, 0.658);
     }
     .face-two-tex1 {
         width: 100%;
+        margin: 0 0 30px;
     }
     .face-two-tex1 .im{
         width: 30%;
@@ -716,6 +723,15 @@ background: rgba(238, 230, 230, 0.658);
         display: flex;
         flex-direction: column;
         margin: 0;
+    }
+    .face-two .face-two-tex2, .face-two .face-two-tex3, .face-two .face-two-tex4, .face-two .face-two-tex5 {
+        border-radius: 5px;
+        box-shadow: 0 3px 12px hsl(233deg 77% 10% / 14%);
+        line-height: 19px;
+        transition: 0.5s;
+        cursor: pointer;
+        padding: 20px 35px;
+        margin: 0 0 15px;
     }
 
     /*-------face three--------*/
@@ -747,6 +763,7 @@ background: rgba(238, 230, 230, 0.658);
     .face-three-tex2 .conten,
     .face-three-tex .conten {
         width: 100%;
+        margin-top: 25px;
     }
     .face-three-tex2 .conten .p6,
     .face-three-tex .conten .p6 {
@@ -757,7 +774,7 @@ background: rgba(238, 230, 230, 0.658);
         line-height: 20px;
     }
     .face-three .hero16 {
-        width: 85%;
+        width: 100%;
         padding: 20px 0%;
     }
     .face-three-tex {
@@ -776,7 +793,12 @@ background: rgba(238, 230, 230, 0.658);
     .face-three-tex .p6 {
         width: 80%;
     }
-
+    .face-three-tex2 .pic, 
+    .face-three-tex .pic {
+        width: 100%;
+        margin-top: 25px;
+        display: unset;
+    }
 
     /* face 4 */
     .face-four {
@@ -786,6 +808,7 @@ background: rgba(238, 230, 230, 0.658);
     }
     .face-four .t1 {
         width: 100%;
+        padding: 0 0 20px;
     }
     .face-four .t2 {
         width: 100%;
@@ -798,7 +821,7 @@ background: rgba(238, 230, 230, 0.658);
     }
     .face-four .d1 {
         width: 100%;
-        padding: 0 6% 0 6%;
+        padding: 0;
     }
     .face-four .content .d1 img {
         width: 100%;
@@ -818,7 +841,7 @@ background: rgba(238, 230, 230, 0.658);
     }
     .face-five .t2 {
         width: 100%;
-        padding: 10px 3% 10px 3%;
+        padding: 10px 4% 10px;
     }
     .face-five-tex {
         display: flex;
