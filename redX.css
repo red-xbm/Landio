@@ -626,12 +626,13 @@ background: rgba(238, 230, 230, 0.658);
     /*  face one *links*   */
     .face-one {
         width: 100%;
-        padding: 1% 3%;
+        padding: 1% 0;
     }
     .face-one .fc .logo {
-        padding: 10px 0 10px 30px;
+        padding: 10px 0;
         font-size: 30px;
         font-weight: bolder;
+        text-align: center;
     }
 
     .face-one .links-two,
